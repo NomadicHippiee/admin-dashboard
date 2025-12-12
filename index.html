@@ -9,11 +9,34 @@
   <body>
     <header>
       <form id="search-bar" method="get">
-        <div class="ph">PH</div>
-        <input type="search" name="search-bar" id="search" placeholder="Search..." />
+        <svg
+          class="icon-small"
+          clxmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 24 24"
+        >
+          <title>magnify</title>
+          <path
+            d="M9.5,4C13.09,4 16,6.91 16,10.5C16,12.12 15.41,13.6 14.43,14.73L20.08,20.38L19.37,21.09L13.72,15.44C12.59,16.41 11.11,17 9.5,17C5.91,17 3,14.09 3,10.5C3,6.91 5.91,4 9.5,4M9.5,5C6.46,5 4,7.46 4,10.5C4,13.54 6.46,16 9.5,16C12.54,16 15,13.54 15,10.5C15,7.46 12.54,5 9.5,5Z"
+          />
+        </svg>
+        <input
+          type="search"
+          name="search-bar"
+          id="search"
+          placeholder="Search..."
+        />
       </form>
       <div id="user">
-        <div class="ph">PH</div>
+        <svg
+          class="icon-small"
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 24 24"
+        >
+          <title>message-alert</title>
+          <path
+            d="M3,20.59L6.59,17H18C19.1,17 20,16.1 20,15V6C20,4.9 19.1,4 18,4H5C3.9,4 3,4.9 3,6V20.59M3,22H2V6C2,4.34 3.34,3 5,3H18C19.66,3 21,4.34 21,6V15C21,16.66 19.66,18 18,18H7L3,22M11,6H12V11H11V6M12,15H11V13H12V15Z"
+          />
+        </svg>
         <div class="ph">PH</div>
         <h4>Morgan Oakley</h4>
       </div>
@@ -32,7 +55,15 @@
       </div>
     </header>
     <nav>
-      <h1>Dashboard</h1>
+      <div class="title">
+        <svg class="icon-big" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+          <title>view-dashboard</title>
+          <path
+            d="M12,4H20V10H12V4M12,21V11H20V21H12M3,21V15H11V21H3M3,14V4H11V14H3M4,5V13H10V5H4M13,5V9H19V5H13M13,12V20H19V12H13M4,16V20H10V16H4Z"
+          />
+        </svg>
+        <h1>Dashboard</h1>
+      </div>
       <ul class="nav-one">
         <li>Home</li>
         <li>Profile</li>

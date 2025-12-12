@@ -10,6 +10,7 @@
 
 body {
   display: grid;
+  background-color: rgba(237, 231, 177, 0.6);
 
   grid-template: 1fr 5fr / 1fr 5fr;
   grid-template-areas:
@@ -38,7 +39,7 @@ header {
 
 main {
   grid-area: project;
-  background-color: rgba(161, 166, 180, 0.3);
+  background-color: rgba(161, 166, 180, 0.5);
   display: grid;
   grid-template-columns: 3fr 1fr;
   gap: 15px;
@@ -132,4 +133,18 @@ h3 {
   padding: 10px 15px;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 50px -12px inset,
     rgba(0, 0, 0, 0.3) 0px 18px 26px -18px inset;
+}
+
+.title {
+    display: flex;
+    align-items: center;
+}
+
+.icon-small {
+    height: 35px;
+}
+
+.icon-big {
+    height: 50px;
+  color: #d8e1d3;
 }
