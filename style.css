@@ -33,6 +33,7 @@ header {
     "search user"
     "greetuser btn";
   padding: 5px 25px;
+  gap: 10px;
 }
 
 main {
@@ -97,11 +98,11 @@ input {
   background-color: rgba(161, 166, 180, 0.3);
   border: 0;
   width: 100%;
+  box-shadow: inset 4px 4px 10px #bcbcbc, inset -4px -4px 10px #ffffff;
 }
 
 input:hover {
-  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 50px -12px inset,
-    rgba(0, 0, 0, 0.3) 0px 18px 26px -18px inset;
+  background-color: rgba(161, 166, 180, 0.5);
 }
 
 .grid-container {
@@ -126,7 +127,7 @@ h3 {
 .card {
   border: 1px solid rgb(161, 166, 180);
   height: 200px;
-  background-color: rgba(161, 166, 180, 0.7);
+  background-color: rgba(237, 231, 177, 0.4);
   border-radius: 9px;
   padding: 10px 15px;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 50px -12px inset,
