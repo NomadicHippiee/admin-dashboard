@@ -26,7 +26,7 @@ nav {
 
 header {
   grid-area: header;
-  background-color: #ede7b1;
+  background-color: rgba(237, 231, 177, 0.7);
   display: grid;
   grid-template: 1fr 1fr/ 2fr 1fr;
   grid-template-areas:
@@ -69,7 +69,24 @@ main {
 
 .btn-container {
   grid-area: btn;
-  justify-content: space-between;
+  gap: 15px;
+  justify-content: end;
+}
+
+button {
+  background-color: rgb(237, 231, 177);
+  outline: none;
+  cursor: pointer;
+  font-size: 18px;
+  padding: 10px 30px;
+  transition: all 0.2s ease-in-out;
+  border: 2px solid rgb(237, 231, 177);
+  border-radius: 50px;
+  box-shadow: inset 4px 4px 10px #bcbcbc, inset -4px -4px 10px #ffffff;
+}
+
+button:hover {
+     box-shadow: inset 2px 2px 5px #bcbcbc, inset -2px -2px 5px #ffffff, 2px 2px 5px #bcbcbc, -2px -2px 5px #ffffff;
 }
 
 .grid-container {
@@ -97,5 +114,6 @@ h3 {
   background-color: rgba(161, 166, 180, 0.7);
   border-radius: 9px;
   padding: 10px 15px;
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 50px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 26px -18px inset;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 50px -12px inset,
+    rgba(0, 0, 0, 0.3) 0px 18px 26px -18px inset;
 }
