@@ -1,5 +1,10 @@
+@import url("https://fonts.googleapis.com/css2?family=Anonymous+Pro:ital,wght@0,400;0,700;1,400;1,700&family=Martian+Mono:wght@100..800&display=swap");
+
 :root {
   color: #1f271b;
+  font-family: "Anonymous Pro", monospace;
+  font-style: normal;
+  font-weight: 400;
 }
 
 * {
@@ -133,8 +138,12 @@ input:hover {
   gap: 15px;
 }
 
-h3 {
+h1,
+h2,
+h3,
+h4 {
   padding: 10px 0px;
+  font-weight: 700;
 }
 
 .card {
